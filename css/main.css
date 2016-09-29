@@ -1,0 +1,165 @@
+body {
+    background-color: 	#eae8e7;
+}
+.nav-wrapper, footer.page-footer {
+    background-color: 	#b71c1c;
+}
+
+.card .card-content h5 {
+    text-align: center;
+}
+
+
+.card .card-content p {
+    text-align: justify;
+}
+
+/* A modifier */
+.video-container img {
+    height:auto;
+}
+
+
+.cards-container {
+    column-break-inside: avoid;
+}
+.cards-container .card {
+    display: inline-block;
+    overflow: visible;
+}
+
+@media only screen and (max-width: 600px) {
+    .cards-container {
+        -webkit-column-count: 1;
+        -moz-column-count: 1;
+        column-count: 1;
+    }
+}
+@media only screen and (min-width: 601px) {
+    .cards-container {
+        -webkit-column-count: 2;
+        -moz-column-count: 2;
+        column-count: 2;
+    }
+}
+@media only screen and (min-width: 993px) {
+    .cards-container {
+        -webkit-column-count: 2;
+        -moz-column-count: 2;
+        column-count: 2;
+    }
+}
+.cards-container.full {
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
+    column-count: 1;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.card {
+    width: 100%;
+}
+
+.card.horizontal {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.card.horizontal .card-image {
+    max-width: 25%;
+}
+
+.card.horizontal .card-image img {
+    max-width: 100%;
+    width: auto;
+}
+
+.card.horizontal .card-stacked {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    position: relative;
+}
+
+.header-search .input-field {
+    margin-top: 0;
+}
+
+
+/* FORMS - COLOR */
+/* label color */
+/**/
+/* FORMS - COLOR --- FIN*/
+
+/* NAV */
+
+.side-nav .userView {
+    overflow: hidden;
+    position: relative;
+    padding: 32px 32px 18px;
+    margin-bottom: 8px;
+}
+.side-nav .userView a {
+    height: auto;
+    padding: 0;
+    line-height: 22px;
+}
+
+.side-nav .userView .background {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+}
+.side-nav .userView .circle {
+    height: 64px;
+    width: 64px;
+}
+.side-nav .userView .name {
+    margin-top: 16px;
+    font-weight: 500;
+}
+.side-nav .userView .name, .side-nav .userView .email {
+    font-weight: 14px;
+    line-height: 24px;
+}
+.side-nav .userView .email {
+    margin-bottom: 16px;
+    font-weight: 400;
+}
+.side-nav a:hover {
+    background-color: rgba(0,0,0,0);
+}
+.side-nav {
+//overflow: hidden;
+}
+
+.newsletter .input-field label {
+    color: white;
+    top: 1rem;
+    left: 0;
+    text-align: center;
+}
+.newsletter input[type=text], .newsletter input[type=tel] {
+    text-align: center;
+    border-color: #fff;
+}
+.newsletter input[type=text]:focus:not([readonly])+label, .newsletter input[type=tel]:focus:not([readonly])+label {
+    color: white;
+}
+.newsletter input[type=text]:focus:not([readonly]), .newsletter input[type=tel]:focus:not([readonly]) {
+    border-color: #fff;
+    box-shadow: 0 1px 0 0 #fff;
+}
