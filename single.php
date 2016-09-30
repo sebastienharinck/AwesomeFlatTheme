@@ -80,6 +80,7 @@ get_header();
 
 		<?php get_sidebar(); ?>
 
+		<!--
 		<div class="col s12 center">
 			<ul class="pagination">
 				<li class="disabled"><a href="#!"><i class="material-icons">chevron_left</i></a></li>
@@ -91,6 +92,7 @@ get_header();
 				<li class="waves-effect"><a href="#!"><i class="material-icons">chevron_right</i></a></li>
 			</ul>
 		</div>
+		-->
 
 
 	</div>
