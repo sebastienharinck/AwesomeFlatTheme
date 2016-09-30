@@ -9,6 +9,6 @@
 		<?php the_content() ?>
 	</div>
 	<div class="card-action center">
-		<a class="btn" href="#">Lire la suite</a>
+		<?= sprintf( '<a class="btn" href="%s" rel="bookmark">Lire la suite</a>', esc_url( get_permalink() ) ); ?>
 	</div>
 </div>
