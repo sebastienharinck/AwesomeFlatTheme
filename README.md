@@ -1,2 +1,2 @@
 # AwesomeFlatTheme
-AwesomeFlatTheme is juste a simple materialize theme for WordPress !
+AwesomeFlatTheme is just a simple flat theme for WordPress !
