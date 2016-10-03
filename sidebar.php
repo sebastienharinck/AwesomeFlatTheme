@@ -1,15 +1,16 @@
 <div class="col s12 m3">
-	<div class="card">
-		<div class="card-image">
-			<img src="<?= get_template_directory_uri() ?>/img/frog.jpg">
-		</div>
-		<div class="card-stacked">
-			<div class="card-content">
-				<h5 class="center">About</h5>
-				<p>Welcome on my blog !</p>
-			</div>
-		</div>
-	</div>
+	
+
+
+
+	<?php if ( is_active_sidebar( 'sidebar-1' ) ) : ?>
+		<div id="widget-area" class="widget-area" role="complementary">
+			<?php dynamic_sidebar( 'sidebar-1' ); ?>
+		</div><!-- .widget-area -->
+	<?php endif; ?>
+
+
+
 	<!--
 	<div class="card lighten-2 red newsletter">
 		<div class="card-stacked">
