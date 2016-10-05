@@ -5,7 +5,7 @@
 		</div>
 	</div>
 	<div class="card-content">
-		<h5><?php the_title() ?></h5>
+		<h1><?php the_title() ?></h1>
 		<?php the_content() ?>
 	</div>
 	<!-- <div class="card-action center"></div> -->
