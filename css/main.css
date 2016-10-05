@@ -5,13 +5,14 @@ body {
     background-color: 	#b71c1c;
 }
 
-.card .card-content h5 {
+.home .card .card-content h5 {
     text-align: center;
 }
 
 
 .card .card-content p {
     text-align: justify;
+    margin-top: 10px;
 }
 
 /* A modifier */
@@ -162,4 +163,14 @@ body {
 .newsletter input[type=text]:focus:not([readonly]), .newsletter input[type=tel]:focus:not([readonly]) {
     border-color: #fff;
     box-shadow: 0 1px 0 0 #fff;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+ul li {
+    list-style-type: disc;
+    margin-left: 17px;
 }
