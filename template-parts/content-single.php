@@ -1,7 +1,7 @@
 <div class="card">
 	<div class="card-image">
 		<div class="video-container">
-			<?php the_post_thumbnail(); ?>
+			<?php the_post_thumbnail('post-insertion'); ?>
 		</div>
 	</div>
 	<div class="card-content">
