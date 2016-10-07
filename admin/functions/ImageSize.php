@@ -1,5 +1,12 @@
 <?php
 
+/**
+ * Class ImageSize
+ * améliorations possibles :
+ *  mettre en static et renvoyer l'instance à chaque fois pour créer à la volé
+ *  utiliser les namespaces
+ *  utiliser l'autoload
+ */
 class ImageSize {
 
 	private $slug;
