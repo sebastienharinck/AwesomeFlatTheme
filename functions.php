@@ -20,13 +20,6 @@ add_action( 'wp_enqueue_scripts', 'awesomeflat_add_theme_scripts' );
 
 
 
-function awesomeflat_setup() {
-
-	add_theme_support( 'post-thumbnails' );
-	set_post_thumbnail_size( 500, 281.25, array( 'center', 'center')  );
-
-}
-add_action( 'after_setup_theme', 'awesomeflat_setup' );
 
 
 function awesomeflat_widgets_init() {
@@ -41,3 +34,9 @@ function awesomeflat_widgets_init() {
 	) );
 }
 add_action( 'widgets_init', 'awesomeflat_widgets_init' );
+
+
+
+require 'admin/functions/ImageSize.php';
+
+$imgs = new ImageSize( 'post-insertion', 'Coucou', 800, 450 );
