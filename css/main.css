@@ -177,3 +177,8 @@ ul li {
 .single h1 {
     text-align: center;
 }
+
+.cards-container img {
+    width: 100%;
+    height:auto;
+}
