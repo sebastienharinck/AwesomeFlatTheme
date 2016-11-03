@@ -170,7 +170,7 @@ li {
     text-align: -webkit-match-parent;
 }
 
-ul li {
+.container ul li {
     list-style-type: disc;
     margin-left: 17px;
 }
